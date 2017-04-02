@@ -55,4 +55,4 @@ def countPairsWithDifference(k, a):
 			j += 1
 		else:
 			i += 1
-	return c
+	return c%(10**9 + 7)
